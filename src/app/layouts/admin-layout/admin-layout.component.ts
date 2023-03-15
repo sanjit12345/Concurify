@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewChild, AfterViewInit } from '@angular/core';
+import { Component, OnInit, ViewChild, AfterViewInit, ElementRef, Renderer2 } from '@angular/core';
 import { Location, LocationStrategy, PathLocationStrategy, PopStateEvent } from '@angular/common';
 import { Router, NavigationEnd, NavigationStart } from '@angular/router';
 import PerfectScrollbar from 'perfect-scrollbar';
@@ -11,10 +11,13 @@ import { filter, Subscription } from 'rxjs';
   styleUrls: ['./admin-layout.component.scss']
 })
 export class AdminLayoutComponent implements OnInit {
+
   private _router: Subscription;
   private lastPoppedUrl: string;
   private yScrollStack: number[] = [];
 
+  items: string[] = ["invoice", "capture", "payment"];
+  question : string;
   constructor( public location: Location, private router: Router) {}
 
   ngOnInit() {
@@ -153,5 +156,19 @@ export class AdminLayoutComponent implements OnInit {
       }
       return bool;
   }
+
+  submitQuestion(): void{
+      console.log(this.question);
+      const val = {
+        "user": 1,
+        "question": this.question
+    }
+      const myList = JSON.parse(localStorage.getItem("ask-question"));
+        myList.push(val);
+      
+      localStorage.setItem("ask-question",JSON.stringify(val));
+      this.question = '';
+  }
+
 
 }

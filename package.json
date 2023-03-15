@@ -1,5 +1,5 @@
 {
-  "name": "material-dashboard-angular",
+  "name": "Concurify",
   "version": "2.8.0",
   "license": "MIT",
   "scripts": {
@@ -41,13 +41,14 @@
     "googleapis": "99.0.0",
     "hammerjs": "2.0.8",
     "jquery": "3.6.0",
-    "moment": "2.29.1",
+    "angular-mentions": "1.2.0",
+    "moment": "^2.29.1",
     "perfect-scrollbar": "1.5.5",
     "popper.js": "1.16.1",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
-    "zone.js": "~0.11.4",
-    "web-animations-js": "2.3.2"
+    "web-animations-js": "2.3.2",
+    "zone.js": "~0.11.4"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^14.2.7",

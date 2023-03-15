@@ -1,0 +1,50 @@
+<div class="main-content">
+  <div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-11 col-md-12">
+            <div class="card">
+                <div class="card-header card-header-tabs card-header-primary">
+                    <div class="nav-tabs-navigation">
+                        <div class="nav-tabs-wrapper">
+                            <span class="nav-tabs-title">Products:</span>
+                            <ul class="nav nav-tabs" data-tabs="tabs">
+                                <li class="nav-item active">
+                                    <a href="#concur-invoice" class="nav-link" data-toggle="tab">
+                                        <i class="material-icons">assignment</i> Concur Invoice
+                                        <div class="ripple-container"></div>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#invoice-capture" class="nav-link" data-toggle="tab">
+                                        <i class="material-icons">cloud_done</i> Invoice Capture
+                                        <div class="ripple-container"></div>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#payment-provider" class="nav-link" data-toggle="tab">
+                                        <i class="material-icons">euro</i> Payment Providers
+                                        <div class="ripple-container"></div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="concur-invoice">
+                          <invoice-page></invoice-page> 
+                        </div>
+                        <div class="tab-pane" id="invoice-capture">
+                            <capture-page></capture-page>
+                        </div>
+                        <div class="tab-pane" id="payment-provider">
+                            Third Tab
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+  </div>
+</div>
