@@ -44,11 +44,6 @@ Concurify
 │   │   │   ├── dashboard.component.html
 │   │   │   ├── dashboard.component.spec.ts
 │   │   │   └── dashboard.component.ts
-│   │   ├── icons
-│   │   │   ├── icons.component.css
-│   │   │   ├── icons.component.html
-│   │   │   ├── icons.component.spec.ts
-│   │   │   └── icons.component.ts
 │   │   ├── layouts
 │   │   │   └── admin-layout
 │   │   │       ├── admin-layout.component.html
@@ -57,31 +52,11 @@ Concurify
 │   │   │       ├── admin-layout.component.ts
 │   │   │       ├── admin-layout.module.ts
 │   │   │       └── admin-layout.routing.ts
-│   │   ├── maps
-│   │   │   ├── maps.component.css
-│   │   │   ├── maps.component.html
-│   │   │   ├── maps.component.spec.ts
-│   │   │   └── maps.component.ts
-│   │   ├── notifications
-│   │   │   ├── notifications.component.css
-│   │   │   ├── notifications.component.html
-│   │   │   ├── notifications.component.spec.ts
-│   │   │   └── notifications.component.ts
-│   │   ├── table-list
-│   │   │   ├── table-list.component.css
-│   │   │   ├── table-list.component.html
-│   │   │   ├── table-list.component.spec.ts
-│   │   │   └── table-list.component.ts
-│   │   ├── typography
-│   │   │   ├── typography.component.css
-│   │   │   ├── typography.component.html
-│   │   │   ├── typography.component.spec.ts
-│   │   │   └── typography.component.ts
-│   │   ├── upgrade
-│   │   │   ├── upgrade.component.css
-│   │   │   ├── upgrade.component.html
-│   │   │   ├── upgrade.component.spec.ts
-│   │   │   └── upgrade.component.ts
+│   │   ├── product-list
+│   │   │   ├── product-list.component.css
+│   │   │   ├── product-list.component.html
+│   │   │   ├── product-list.component.spec.ts
+│   │   │   └── product-list.component.ts
 │   │   └── user-profile
 │   │       ├── user-profile.component.css
 │   │       ├── user-profile.component.html
